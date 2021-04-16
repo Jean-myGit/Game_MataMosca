@@ -1,0 +1,116 @@
+ html {
+     cursor: url(img/mata_mosca.png) 30 30, auto;
+
+ }
+ 
+ body {
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+ }
+ 
+ /* TAMANHO DOS PERSONAGENS */
+.mosca1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosca2 {
+    width: 80px;
+    height: 80px;
+}
+
+.mosca3 {
+    width: 110px;
+    height: 110px;
+}
+
+/* LADO DOS PERSONAGENS */
+.ladoA {
+   transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+
+}
+
+.vidas {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr {
+    border-color: hsla(120, 1%, 33%, 0.377);
+    width: 25%;
+    
+}
+
+/*
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+
+}
+
+.slide-right {
+	-webkit-animation: slide-right 3s cubic-bezier(0, 0.460, 0.450, 43) infinite;
+	        animation: slide-right 23s cubic-bezier(0, 0.460, 0.450, 43) infinite;
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  */
+
+
+  
+
